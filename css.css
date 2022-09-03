@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: Poppins;
+    letter-spacing: 1px;
+}
+
+
+.bb {
+    padding: 15px 10%;
+}
+
+.bbbb {
+    padding: 15px 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.bnn-def-ann-dd {
+    color: #212121;
+    border: 3px solid #212121;
+    background-color: rgba(51, 51, 51, 0);
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 10px 70px;
+    margin-top: -30px;
+    font-weight: 600;
+}
+
+.bnn-def-ann-dd:hover {
+    background-color: #212121;
+    color: #ffffff;
+}
+
+.catalogo {
+    padding: 15px 5%;
+}
+
+#cardBOX {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.ann {
+    width: 100%;
+    height: 500px;
+    background-color: #7cb342;
+    background-image: url(imagens/green-leaves-plants-with-water-drops-in-dark-background-dark.jpg);
+    background-size: 100%;
+}
+
+.logo {
+    width: 60%;
+}
+
+.pranta {
+    width: 700px;
+    margin-top: -100px;
+    margin-left: -80px;
+}
+
+h1 {
+    color: #263238;
+}
+
+h3 {
+    color: #757575;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 12px;
+    margin-top: 40px;
+    color: #424242;
+}
+
+.bnn {
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #689f38;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.bnn:hover {
+    background-color: #558b2f;
+}
+
+.menu {
+    margin-top: 30px;
+    display: flex;
+    list-style: none;
+    font-family: 'Courier New';
+    font-size: 10px;
+    margin-left: -70px;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: block;
+}
+
+.menu li a:hover {
+    background: #689f38;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.jj {
+    color: #263238;
+}
+
+.dec {
+    margin-top: 0;
+    color: #424242;
+    font-weight: 600;
+}
+
+.text-ann {
+    text-align: center;
+}
+
+.text-ann p {
+    font-size: 20px;
+    color: white;
+}
+
+.text-ann h3 {
+    font-size: 50px;
+    color: white;
+}
+
+.bnn-def-ann {
+    color: white;
+    border: 5px solid white;
+    background-color: rgba(51, 51, 51, 0);
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 10px 70px;
+    font-weight: 600;
+}
+
+.bnn-def-ann:hover {
+    background-color: white;
+    color: #263238;
+}
+
+.barra {
+    width: 647px;
+    border: 2px solid #bdbdbd;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.barra input {
+    width: 617px;
+    border: none;
+    height: 30px;
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.barra button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #7cb342;
+    padding: 0;
+}
+
+.barra input:focus {
+    border: none;
+    outline: none;
+}
+
+.barra button:focus {
+    border: none;
+    outline: none;
+}
+
+.barra button img {
+    width: 100%;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.cards {
+    overflow: hidden;
+    width: 250px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    height: 400px;
+}
+
+.cardss {
+    overflow: hidden;
+    width: 250px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    height: 400px;
+    display:flex; 
+    flex-direction: column;
+}
+
+.cardss p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.cardss h6 i {
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.TT1 h4 {
+    padding-left: 40px;
+    padding-right: 40px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.TT1 {
+    width: 80%;
+}
+
+.TT2 h4 {
+    padding-right: 40px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.textTT {
+    display: flex;
+}
+
+.cards img {
+    max-width: 250px;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cards p {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.cards h5 {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.ccaa {
+    position: relative;
+    width: 250px;
+    margin: 20px;
+}
+
+.ccaa .flip {
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+}
+
+.ccaa:hover .flip {
+    transform: rotateY(180deg);
+}
+
+.front-face, .back-face {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.back-face {
+    transform: rotateY(180deg);
+}
+
+
+.cardsPB {
+    overflow: hidden;
+    width: 350px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.48503151260504207) 7%, rgba(217, 217, 217, 0.6615021008403361) 18%, rgba(213, 213, 213, 0.8463760504201681) 33%, rgba(205, 205, 205, 1) 70%);
+    border: none;
+    border-radius: 20px;
+    height: 370px;
+    margin: 20px;
+}
+
+.cardsPB img {
+    max-width: 350px;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cardsPB p {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.cardsPB h5 {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.tracejado {
+    width: 100%;
+    border: 2px #333;
+    border-style: dashed;
+    margin-bottom: 15px;
+    margin-top: 15PX;
+}
